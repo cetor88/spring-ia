@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /sin-contexto
+
+spring:
+  application:
+    name: sin-contexto
+    port: 8080
+
+
