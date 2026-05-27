@@ -15,9 +15,7 @@ public class LlamaAIService {
 
     public String generateResult(String prompt) {
         OllamaChatOptions options = new OllamaChatOptions();
-        options.setModel("llama2");
-        options.setTemperature(1.0);
-
+        options.setModel("llama2"); // Asegúrate de que el modelo esté disponible en tu instancia de Ollama
 
         ChatResponse response = chatModel.call(new Prompt(prompt, options));
 

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lta.example.services.LlamaAIService;
+import  com.ollama.sin_contexto.services.LlamaAIService;
 
 @RestController
 public class OLlamaController {

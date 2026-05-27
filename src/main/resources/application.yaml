@@ -3,6 +3,9 @@ server:
     context-path: /sin-contexto
 
 spring:
+  ai:
+    ollama:
+      base-url: http://localhost:11434
   application:
     name: sin-contexto
     port: 8080

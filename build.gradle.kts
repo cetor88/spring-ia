@@ -16,17 +16,16 @@ java {
 repositories {
 	mavenCentral()
 }
-//ext {
-	//set("springAiVersion", "2.0.0-M6")
-//}
+
 extra["springAiVersion"] = "1.1.6"
 
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
-	implementation("org.springframework.ai:spring-ai-starter-model-anthropic")
+	//implementation("org.springframework.ai:spring-ai-starter-model-anthropic")
 	implementation("org.springframework.ai:spring-ai-starter-model-ollama")
-	implementation("org.springframework.ai:spring-ai-starter-model-openai")
+	//implementation("org.springframework.ai:spring-ai-starter-model-openai")
+	implementation ("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
